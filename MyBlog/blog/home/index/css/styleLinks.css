@@ -1,0 +1,42 @@
+.link{
+    font-family: boxicons !important;
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+   font-size: 90px;
+   color:#fff;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #4267b2
+}
+.follow{
+    font-size: 80px;
+    color: gray;
+    text-shadow:10px 10px 50px rgb(143, 141, 145);
+}
+.bxl-facebook::before {
+    content:"\e92f";
+}
+.home{
+    font-family: boxicons !important;
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+   font-size: 90px;
+   color:#fff;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background:rgb(148, 33, 56);
+}
+.bxs-home::before {
+    content:"\e92f";
+}
+@media  screen and(max-width:4700px) {
+    .follow{
+       font-size: 100%;
+    }
+}
